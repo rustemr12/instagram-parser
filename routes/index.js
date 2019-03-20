@@ -40,7 +40,7 @@ router.get('/getLocations', function(req, res, next) {
         //      console.log(err)
           //  }
 
-          })
+        //})
   //   }
 
 
