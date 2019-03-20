@@ -30,15 +30,15 @@ router.get('/getLocations', function(req, res, next) {
   //  for (var i in result) {
         console.log(result)
     //  var location = new Location({
-              location_url: result[i][1],
-              location_name: result[i][0],
-              created_at: new Date()
-            });
+    //          location_url: result[i][1],
+      //        location_name: result[i][0],
+        //      created_at: new Date()
+          //  });
       //location.save(function(err) {
-          if (err) {
+      //    if (err) {
               ///var failure_code  = err['code']
-              console.log(err)
-            }
+        //      console.log(err)
+          //  }
 
           })
   //   }
