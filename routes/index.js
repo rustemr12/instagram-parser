@@ -27,21 +27,21 @@ router.get('/getLocations', function(req, res, next) {
             return array; })
     })
   .then(function (result) {
-    for (var i in result) {
-        console.log(result[i][1])
-      var location = new Location({
+  //  for (var i in result) {
+        console.log(result)
+    //  var location = new Location({
               location_url: result[i][1],
               location_name: result[i][0],
               created_at: new Date()
             });
-      location.save(function(err) {
+      //location.save(function(err) {
           if (err) {
               ///var failure_code  = err['code']
               console.log(err)
             }
 
           })
-     }
+  //   }
 
 
   })
